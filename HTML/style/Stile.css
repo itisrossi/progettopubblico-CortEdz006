@@ -1,0 +1,45 @@
+body 
+{
+    background-color: lightslategray;
+    font-size: x-large;
+}
+.titolo 
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:monospace;
+}
+.label
+{
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-size: xx-large;
+}
+input
+{
+    font-family: monospace;
+    border-radius: 5px 5px 5px 5px;
+    font-size: x-large;
+    background-color: bisque;
+}
+.bottone1
+{
+    color: rgb(0, 0, 0);
+    background-color: green;
+}
+.bottone2
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(187, 18, 18);
+}
+#output
+{
+    font-family: monospace;
+    font-size: xx-large;
+    font-style: bold;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: rgb(255, 255, 255);
+
+}

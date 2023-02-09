@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="script/Codice.js"></script>
+<script src="script/Array.js"></script>
+<link href="style/Stile.css" rel="stylesheet">
+<title>Calcolatore codice fiscale</title>
+</head>
+<body>
+    <h1 class="titolo">CALCOLO DEL CODICE FISCALE</h1>
+    <hr/>
+    <br/>
+<form>
+        <label class="label">Inserisci il cognome: </label>
+        <input type="text" id="cognome"> <br> <br>
+        <label class="label">Inserisci il nome: </label>
+        <input type="text" id="nome"> <br> <br>
+        <label class="label">Inserisci il genere: </label>
+        <input type="radio" name="genere"  id="sesso"  value="M">
+        <label class="label">Maschio</label>
+        <input type="radio" name="genere"  id="sesso1" value="F">
+        <label class="label">Femmina</label><br/><br/>
+        <label class="label">Inserisci la data di nascita: </label>
+        <input type="date" id="data"> <br> <br>
+        <label class="label">Inserisci il comune di nascita: </label>
+        <input type="text" id="comune"> <br/><br/><br/>
+        <input type="button" onclick="in_out_put()"  value="Calcola" class="bottone1">
+        <input type="button" onclick="document.getElementById('demo').innerHTML= '';"  value="Resetta i dati" class="bottone2">
+        <br/><br/>
+        <div id="output">
+        <p id="demo"></p>
+        </div>
+</form>        
+</body>
+</html>
