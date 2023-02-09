@@ -1,2 +1,1 @@
-LICENZA:
-lol non potete farie niente vi denucio hahahahahahaha.a
+Error 404: no license found :)
