@@ -27,3 +27,18 @@ function posizioneMinimo(v,inizio, posMinimo)
     }
     return pos; 
 }
+
+function quickSort(v, inizio, fine)
+{
+    if (inizio === fine)
+    {
+        return;
+    }
+    else
+    {
+        let pivot = v[inizio];
+        partition(v, inizio, fine);
+        quickSort(v, inizio, posPivot -1);
+        quickSort(v, posPivot +1, fine);
+    }
+}
