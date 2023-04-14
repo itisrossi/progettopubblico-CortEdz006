@@ -24,7 +24,22 @@ namespace TestFrazioni
         public CHugeNumber(string numero)
         {
             Cifre = new int[N];
+            if(numero.Length<N)
+            {
+                for (int i = 0; i < numero.Length; i++)
+                {
+                    Cifre[N - i - 1] = numero[numero.Length - i - 1] - '0';
+                }
+            }
+            else
+            {
+                throw new InvalidOperationException();
+            }
+        }
+
+        public static CHugeNumber operator + (CHugeNumber n1, CHugeNumber n2)
+        {
 
         }
     }
-}
+}}
