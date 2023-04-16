@@ -1,0 +1,13 @@
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\bin\Debug\netcoreapp3.1\TestFrazioni.exe
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\bin\Debug\netcoreapp3.1\TestFrazioni.deps.json
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\bin\Debug\netcoreapp3.1\TestFrazioni.runtimeconfig.json
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\bin\Debug\netcoreapp3.1\TestFrazioni.runtimeconfig.dev.json
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\bin\Debug\netcoreapp3.1\TestFrazioni.dll
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\bin\Debug\netcoreapp3.1\TestFrazioni.pdb
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\obj\Debug\netcoreapp3.1\TestFrazioni.csproj.AssemblyReference.cache
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\obj\Debug\netcoreapp3.1\TestFrazioni.AssemblyInfoInputs.cache
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\obj\Debug\netcoreapp3.1\TestFrazioni.AssemblyInfo.cs
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\obj\Debug\netcoreapp3.1\TestFrazioni.csproj.CoreCompileInputs.cache
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\obj\Debug\netcoreapp3.1\TestFrazioni.dll
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\obj\Debug\netcoreapp3.1\TestFrazioni.pdb
+C:\Users\9698255\Desktop\GitHub\progettopubblico-CortEdz006\C#\TestFrazioni\TestFrazioni\obj\Debug\netcoreapp3.1\TestFrazioni.genruntimeconfig.cache
