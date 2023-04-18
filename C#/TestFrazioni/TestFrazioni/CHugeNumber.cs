@@ -50,7 +50,7 @@ namespace TestFrazioni
         public static CHugeNumber operator +(CHugeNumber n1, CHugeNumber n2)
         {
             CHugeNumber risultato = new CHugeNumber();
-            for(int i = N - 1; i > 0; i--)
+            for (int i = N - 1; i > 0; i--)
             {
                 risultato.Cifre[i] += n1.Cifre[i] + n2.Cifre[i];
                 if (risultato.Cifre[i] >= 10)
@@ -58,9 +58,9 @@ namespace TestFrazioni
                     risultato.Cifre[i] -= 10;
                     risultato.Cifre[i - 1] = 1;
                 }
-                
+
             }
-            return risultato; 
+            return risultato;
         }
 
         private CHugeNumber comp()
@@ -69,41 +69,48 @@ namespace TestFrazioni
             CHugeNumber uno = new CHugeNumber("1");
             for (int i = N - 1; i > 0; i--)
             {
-                risultato.Cifre[i] = 9 - this.Cifre[i]; 
+                risultato.Cifre[i] = 9 - this.Cifre[i];
             }
             return risultato + uno;
         }
         public static CHugeNumber operator -(CHugeNumber n1, CHugeNumber n2)
         {
             CHugeNumber risultato = new CHugeNumber();
-            if()
+            risultato = n2 + n1.comp();
+            if (risultato.Cifre[0] == 1)
             {
-                risultato = n2 + n1.comp();
+                risultato.Cifre[0] = 0;
             }
-            risultato.Cifre[0] = 0;
+            else
+            {
+                risultato = risultato.comp();
+                for (int i = 0; risultato.Cifre[i] == 0; i++)
+                {
+                    if (risultato.Cifre[i + 1] != 0)
+                        risultato.Cifre[i + 1] = 0 - risultato.Cifre[i + 1];
+                }
+            }
             return risultato;
         }
-
         public static CHugeNumber operator *(CHugeNumber n1, CHugeNumber n2)
         {
             CHugeNumber risultato = new CHugeNumber();
-            for (int i = N - 1; i < 0; i--)
+            CHugeNumber uno = new CHugeNumber("1");
+            while (n2.ToString() != "")
             {
-                risultato.Cifre[i] = n1.Cifre[i] + n2.Cifre[i];
+                risultato += n1; n2 -= uno;
             }
             return risultato;
         }
-
         public static CHugeNumber operator /(CHugeNumber n1, CHugeNumber n2)
         {
             CHugeNumber risultato = new CHugeNumber();
-            for (int i = N - 1; i < 0; i--)
+            do
             {
-                risultato.Cifre[i] = n1.Cifre[i] + n2.Cifre[i];
+
             }
+            while()
             return risultato;
         }
-
-
     }
 }
