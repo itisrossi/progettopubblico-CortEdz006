@@ -77,17 +77,19 @@ namespace TestFrazioni
         {
             CHugeNumber risultato = new CHugeNumber();
             risultato = n2 + n1.comp();
-            if (risultato.Cifre[0] == 1)
-            {
-                risultato.Cifre[0] = 0;
-            }
-            else
+            if (risultato.Cifre[0] == 0)
             {
                 risultato = risultato.comp();
+            }
+            else if (risultato.Cifre[0] == 1)
+            {
+                risultato.Cifre[0] = 0; 
                 for (int i = 0; risultato.Cifre[i] == 0; i++)
                 {
                     if (risultato.Cifre[i + 1] != 0)
                         risultato.Cifre[i + 1] = 0 - risultato.Cifre[i + 1];
+                    else if (risultato.Cifre[N-1] == 0)
+                        break;
                 }
             }
             return risultato;
@@ -105,11 +107,12 @@ namespace TestFrazioni
         public static CHugeNumber operator /(CHugeNumber n1, CHugeNumber n2)
         {
             CHugeNumber risultato = new CHugeNumber();
-            do
+            CHugeNumber uno = new CHugeNumber("1");
+            while (n1.ToString() != "")
             {
-
+                n1 -= n2;
+                risultato += uno;
             }
-            while()
             return risultato;
         }
     }
